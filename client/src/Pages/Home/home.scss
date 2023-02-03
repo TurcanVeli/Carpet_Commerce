@@ -4,25 +4,15 @@ $slider : 400px;
 .home {
     .top{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         .slider {
-            height: 550px;
-            width: 550px;
-            position: relative;
-    
-            .container {
-                img {
-                    height: 550px;
-                    width: 550px;
-                    object-fit: cover;
-                }
-            }
-            .icons{
-                position: absolute;
-                right: 0;
-                bottom: 0;
-            }
-    }
+            margin: 50px 150px;   
+        }
+        .info-container{
+            width: 50%;
+        
+            
+        }
 }
 
 

@@ -21,7 +21,7 @@ const Slider = () => {
 
   return (
     <div className="slider">
-      <div className="container" style={{transform:`translateX(-${currentSlide * 13}vw)`}}>
+      <div className="container" style={{transform:`translateX(-${currentSlide * 40}vw)`}}>
         <img src={data[0]} alt="" />
         <img src={data[1]} alt="" />
         <img src={data[2]} alt="" />
