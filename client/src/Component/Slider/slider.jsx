@@ -27,10 +27,10 @@ const Slider = () => {
         <img src={data[2]} alt="" />
       </div>
       <div className="icons">
-        <div className="icon" onClick={prevSlide}>
+        <div className="icon-west" onClick={prevSlide}>
           <WestOutlinedIcon />
         </div>
-        <div className="icon" onClick={nextSlide}>
+        <div className="icon-east" onClick={nextSlide}>
           <EastOutlinedIcon />
         </div>
       </div>
