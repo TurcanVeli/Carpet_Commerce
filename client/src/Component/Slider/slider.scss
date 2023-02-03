@@ -1,35 +1,51 @@
-.slider {
-    height: 550px;
-    width: 40vw;
-    overflow: hidden;
 
-    .container {
-        width: 120vw;
-        height: 100%;
-        display: flex;
-        transition: all 1s ease;
-
-        img {
+.slider-container{
+    position: relative;
+    padding-left: 150px;
+        .slider {
+        
+            height: 550px;
             width: 40vw;
-            height: 100%;
-            object-fit: cover;
+            overflow: hidden;
+        
+            .container {
+                width: 120vw;
+                height: 100%;
+                display: flex;
+                transition: all 1s ease;
+        
+                img {
+                    width: 40vw;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+        
         }
-    }
 
-    .icons {
-        background-color: aqua;
-        width: auto;
-        display: flex;
-        flex-direction: column;
+    .icons{
         position: absolute;
-        gap: 10px;
-        margin: auto;
-        cursor: pointer;
+        bottom: -30px;
+        left:14%;
+        padding: 40px 40px;
+        display: inline-block;
+
+        box-sizing: border-box; 
         
         .icon-west{
-            margin: 20px;
-            border: 1px solid salmon;
+            background-color: red;
+           
+            position: absolute;
+            top: 0;
+            left:0;
         }
-       
+        .icon-east{
+            background-color: red;
+            position: absolute;
+            bottom: 0;
+            right:0;
+        }
+        
     }
+    
 }

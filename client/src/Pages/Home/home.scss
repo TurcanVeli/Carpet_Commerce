@@ -2,12 +2,13 @@ $slider : 400px;
 
 
 .home {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     .top{
         display: flex;
         justify-content: space-evenly;
-        .slider {
-            margin: 50px 150px;   
-        }
+      
         .info-container{
             width: 50%;
         
