@@ -13,7 +13,18 @@ const Home = () => {
   return (
 
     <div className="home">
-      <Slider/>
+      <div className="top">
+        <Slider/>
+        <div className="info-container">
+          <div className="title">
+            title
+          </div>
+          <div className="desc">
+            desc
+          </div>
+
+        </div>
+      </div>
       <div className="new-feature">
         yeni halılar
       </div>
