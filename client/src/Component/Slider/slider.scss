@@ -3,7 +3,7 @@
     padding-left: 150px;
 
     .slider {
-
+        position: relative;
         height: 550px;
         width: 40vw;
         overflow: hidden;
@@ -29,10 +29,7 @@
         left: 11.26%;
         padding: 64px 64px;
         display: inline-block;
-
-
         cursor: pointer;
-
         .icon-west {
             display: flex;
             justify-content: center;
