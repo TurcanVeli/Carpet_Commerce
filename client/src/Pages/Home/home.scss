@@ -4,10 +4,11 @@ $slider : 400px;
 .home {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 50px;
     .top{
         display: flex;
         justify-content: space-evenly;
+        gap: 40px;
       
         .info-container{
             width: 50%;

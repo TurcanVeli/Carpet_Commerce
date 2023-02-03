@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import EastOutlinedIcon from "@mui/icons-material/EastOutlined";
-import WestOutlinedIcon from "@mui/icons-material/WestOutlined";
+
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import "./slider.scss";
 
 const Slider = () => {
@@ -30,10 +31,10 @@ const Slider = () => {
     </div>
       <div className="icons">
         <div className="icon-west" onClick={prevSlide}>
-          <WestOutlinedIcon />
+          <ArrowBackIosIcon />
         </div>
         <div className="icon-east" onClick={nextSlide}>
-          <EastOutlinedIcon />
+          <ArrowForwardIosIcon />
         </div>
       </div>
 
