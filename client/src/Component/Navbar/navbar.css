@@ -54,15 +54,19 @@
 }
 .F{
     color: rgb(60, 8, 206);
+    cursor: pointer;
 }
 .T{
     color:rgb(5, 91, 220);
+    cursor: pointer;
 }
 .I{
-    color:orangered
+    color:orangered;
+    cursor: pointer;
 }
 .W{
     color: rgb(14, 223, 14);
+    cursor: pointer;
 }
 
 .bottom-links {
