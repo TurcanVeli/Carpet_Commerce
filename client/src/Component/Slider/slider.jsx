@@ -26,10 +26,10 @@ const Slider = () => {
     <div className="slider-container">
       <div className="slider-wrapper">
         
-        <div className="icon-east" onClick={nextSlide}>
-          <ArrowForwardIosIcon />
+        <div className="icon-west" onClick={prevSlide}>
+          <ArrowBackIosIcon />
         </div>
-
+        
         <div className="slider">
           <div className="container" style={{ width: `${data.length * 80}vw`, transform: `translateX(-${currentSlide * 80}vw)` }}>
             <img src={data[0]} alt="" />
@@ -38,9 +38,9 @@ const Slider = () => {
           </div>
         </div>
 
-        <div className="icon-west" onClick={prevSlide}>
-          <ArrowBackIosIcon />
-        </div>
+          <div className="icon-east" onClick={nextSlide}>
+            <ArrowForwardIosIcon />
+          </div>
 
       </div>
 

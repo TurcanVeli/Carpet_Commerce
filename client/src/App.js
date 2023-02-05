@@ -9,6 +9,8 @@ import About from './Pages/About/about'
 import Product from './Pages/Product/product'
 import SalePoint from './Pages/Salepoint/salePoint'
 import Contact from './Pages/Contact/contact'
+import Newproduct from './Pages/NewProduct/newProduct'
+import SpecialProduct from './Pages/Specialproduct/specialproduct'
 
 //Components
 import Navbar from './Component/Navbar/navbar'
@@ -50,7 +52,7 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "/collection/",
+        path: "/collections/",
         element: <Collection />,
 
       },
@@ -73,6 +75,17 @@ const router = createBrowserRouter([
       {
         path: "/contact/",
         element: <Contact />,
+
+      },
+      
+      {
+        path: "/newproducts/",
+        element: <Newproduct />,
+
+      },
+      {
+        path: "/specialproducts/",
+        element: <SpecialProduct />,
 
       },
     ]
