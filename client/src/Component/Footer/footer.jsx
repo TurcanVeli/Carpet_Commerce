@@ -32,7 +32,15 @@ const Footer = () => {
       </div>
       <div className="column">
         <span className="title">Müşteri Hizmetleri</span>
+        <Link className='Link' to='/'>- Canlı Destek</Link>
+        <Link className='Link' to='/'>- Yardım</Link>
+        <Link className='Link' to='/'>- Garanti ve İade</Link>
+        <Link className='Link' to='/'>- Sıkça Sorulan Sorular</Link>
+      </div>
+      <div className="column">
+        <span className="title">Müşteri Hizmetleri</span>
         <Link className='Link' to='/'>- Hakkımızda</Link>
+        <Link className='Link' to='/'>- İletişim</Link>
         <Link className='Link' to='/'>- K.V.K.K.</Link>
         <Link className='Link' to='/'>- Bayilik Başvurusu</Link>
       </div>

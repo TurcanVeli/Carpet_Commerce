@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
-import "./slider.scss";
+import "./slider.css";
 
 const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -20,23 +20,30 @@ const Slider = () => {
     setCurrentSlide(currentSlide === 2 ? 0 : (prev) => prev + 1);
   };
 
+//icon west bozuk
+
   return (
     <div className="slider-container">
-    <div className="slider">
-      <div className="container" style={{transform:`translateX(-${currentSlide * 40}vw)`}}>
-        <img src={data[0]} alt="" />
-        <img src={data[1]} alt="" />
-        <img src={data[2]} alt="" />
-      </div>
-    </div>
-      <div className="icons">
-        <div className="icon-west" onClick={prevSlide}>
-          <ArrowBackIosIcon />
-        </div>
+      <div className="slider-wrapper">
+        
         <div className="icon-east" onClick={nextSlide}>
           <ArrowForwardIosIcon />
         </div>
+
+        <div className="slider">
+          <div className="container" style={{ width: `${data.length * 80}vw`, transform: `translateX(-${currentSlide * 80}vw)` }}>
+            <img src={data[0]} alt="" />
+            <img src={data[1]} alt="" />
+            <img src={data[2]} alt="" />
+          </div>
+        </div>
+
+        <div className="icon-west" onClick={prevSlide}>
+          <ArrowBackIosIcon />
+        </div>
+
       </div>
+
 
     </div>
   );
