@@ -1,4 +1,6 @@
 
+//TODO Ekran boyutunua göre navbar footer ve home page componentleri düzenlenecek. home page bittikten sonra
+
 
 
 //Pages
