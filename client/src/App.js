@@ -15,7 +15,7 @@ import Navbar from './Component/Navbar/navbar'
 import Footer from './Component/Footer/footer'
 
 
-import './App.scss'
+import './App.css'
 
 import {
   createBrowserRouter,

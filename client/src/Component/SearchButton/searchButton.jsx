@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './searchButton.scss'
+import './searchButton.css'
 
 
 import SearchIcon from '@mui/icons-material/Search';
@@ -10,7 +10,7 @@ const Searchbutton = () => {
     <div className="form-field">
         <input
    type="text"
-   placeholder="Search here"
+   placeholder="Evin için ne arıyorsun"
      />
     <SearchIcon className='search-icon'/>
     </div>

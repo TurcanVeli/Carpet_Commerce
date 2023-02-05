@@ -2,44 +2,51 @@ import React from 'react'
 
 
 //icons
-import FacebookIcon from '@mui/icons-material/Facebook';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import TwitterIcon from '@mui/icons-material/Twitter';
+
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 
 import { Link } from "react-router-dom";
 
 
-import './footer.scss';
+import './footer.css';
 
 const Footer = () => {
   return (
     <div className='footer'>
-      <div className="adress">
-        <span>Adres</span>
-        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, pariatur?</span>
+      <div className="column">
+        <span className="title">Popüler Konular</span>
+        <Link className='Link' to='/'>- Salon Halıları</Link>
+        <Link className='Link' to='/'>- Antre Halıları</Link>
+        <Link className='Link' to='/'>- Yuvarlak Halılar</Link>
+        <Link className='Link' to='/'>- Çocuk ve Genç Odası</Link>
+        <Link className='Link' to='/'>- Bahçe Halıları</Link>
       </div>
-      <div className="links">
-        <Link className='link' to="/contact/">Bize Ulaşın</Link>
+      <div className="column">
+        <span className="title">Alışveriş Bilgileri</span>
+        <Link className='Link' to='/'>- Sipariş Bilgileri</Link>
+        <Link className='Link' to='/'>- Sepetim</Link>
+        <Link className='Link' to='/'>- İade Taleplerim</Link>
+        <Link className='Link' to='/'>- Sipariş Takipi</Link>
+        <Link className='Link' to='/'>- Hesabım</Link>
       </div>
-      <div className="social">
-        <h5>Bizi Takip Edin</h5>
-        <span>
-          <FacebookIcon />
-        </span>
-        <span>
-          <InstagramIcon />
-       </span>
-        <span>
-          <TwitterIcon />
-        </span>
+      <div className="column">
+        <span className="title">Müşteri Hizmetleri</span>
+        <Link className='Link' to='/'>- Hakkımızda</Link>
+        <Link className='Link' to='/'>- K.V.K.K.</Link>
+        <Link className='Link' to='/'>- Bayilik Başvurusu</Link>
       </div>
-      <div className="turn-navbar-button">
-        <KeyboardArrowUpIcon className='up-arrow' />
+      <div className="column">
+        <span className="title">Müşteri Hizmetleri</span>
+        <h3>Kampanyalarımızdan ve indirimlerimizden güncel olarak haberdar olun.</h3>
+        <div className="mail-wrapper">
+          <input
+            type="text"
+            placeholder="E-posta adresinizi yazın.."
+          />
+          <button>Gönder</button>
+        </div>
       </div>
-
-    
     </div>
 
 
