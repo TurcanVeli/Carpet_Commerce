@@ -1,13 +1,16 @@
 .navbar {
+    z-index: 999;
+    position: sticky;
+    top: 0px;
     width: 100%;
     height: 75px;
     display: flex;
     justify-content: space-between;
-    margin-top: 10px;
     border-bottom: 1px solid black;
+    background-color: white;
 }
 
-.logo-container {}
+
 
 
 .links-container {
