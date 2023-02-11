@@ -1,0 +1,31 @@
+.homeimg{
+    width: 90%;
+    height: 500px;
+    display: flex;
+    gap: 40px;
+
+}
+
+.right{
+    flex: 3;
+
+}
+.right>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.left{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    overflow: hidden;
+    
+}
+.left>img{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+}
