@@ -79,10 +79,10 @@ const ProductList = ({ type }) => {
                 newproducts.splice(0, 4).map(item => (
                     <div className="product-container" key={item.id
                     }>
-                        <div className="img-wrapper">
-                            <img src={item.img} alt="" />
-                            <span>{item.title}</span>
-                        </div>
+
+                        <img src={item.img} alt="" />
+                        <span>{item.title}</span>
+
 
                         <div className="prices">
                             <span>{item.price}$</span>

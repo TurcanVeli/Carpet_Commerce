@@ -5,20 +5,30 @@
     justify-content: center;
     margin: 10px;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
 }
 
 
 
 .subTitle {
-    padding: 10px 10px;
+    width: 90%;
+  
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1;
-    gap: 5px;
 }
 
 .subTitle>hr {
     flex-grow: 1;
+    width: 100%;
+}
+
+.subTitle>h3{
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+}
+
+.subTitle .link{
+    text-overflow: ellipsis; 
+    white-space: nowrap;
 }

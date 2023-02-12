@@ -3,8 +3,9 @@
     display: flex;
     align-items: center;
     border: none;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 10px;
+    gap: 3.7%;
 }
 
 .c-card{
@@ -59,6 +60,7 @@
     transform: scale(1.6) rotate(20deg);
     filter: blur(3px);
 }
+
 
 .c-card>img{
     height: 180px;

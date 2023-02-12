@@ -6,7 +6,8 @@
     justify-content: center;
     border: none;
     margin-bottom: 10px;
-    gap: 4%;
+    
+    padding-bottom: 50px;
 
 
 
@@ -15,8 +16,11 @@
 .product-container {
     display: flex;
     position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 30px 30px;
-    padding: 25px 25px;
+    padding: 45px 35px;
     border: 1px solid lightgrey;
     overflow: hidden;
     cursor: pointer;
@@ -29,16 +33,9 @@
     transform: scale(1.2);
 }
 
-.img-wrapper {
 
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 20px;
-}
-
-.img-wrapper>img {
-    height: 300px;
+.product-container>img {
+    height: 350px;
     width: 200px;
     object-fit: cover;
 
