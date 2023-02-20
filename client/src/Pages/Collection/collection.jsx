@@ -1,7 +1,13 @@
 import React from 'react'
 
 import './collection.css'
-
+ 
+//Halı hammadesi
+/*
+ yün
+  ipek
+  akrilik
+  */
 const Collection = () => {
 
   const colData = [
@@ -35,7 +41,9 @@ const Collection = () => {
   return (
     <div className='collection'>
       <div className="title-container">
+        <hr />
       <h1>Koleksiyonlar</h1>
+      <hr />
       </div>
       <div className="collection-list">
         {

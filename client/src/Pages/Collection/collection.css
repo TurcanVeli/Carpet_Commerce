@@ -5,6 +5,12 @@
     flex-direction: column;
     align-items: center;
 }
+.title-container{
+    display: flex;
+    gap: 10px;
+
+    
+}
 
 .collection-list {
     display: flex;

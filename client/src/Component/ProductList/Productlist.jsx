@@ -82,7 +82,14 @@ const ProductList = ({ type }) => {
 
                         <img src={item.img} alt="" />
                         <span>{item.title}</span>
-
+                        <div className="Buttons">
+                            <button className='Detay-button'>
+                                Detay
+                            </button>
+                            <button className='shop-button'>
+                                Sepete Ekle
+                            </button>
+                        </div>
 
                         <div className="prices">
                             <span>{item.price}$</span>

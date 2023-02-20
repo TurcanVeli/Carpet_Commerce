@@ -1,6 +1,6 @@
 .navbar {
     z-index: 999;
-    position: sticky;
+  
     top: 0px;
     width: 100%;
     height: 90px;
@@ -22,16 +22,16 @@
 }
 
 .l-wrapper {
-
     display: flex;
     gap: 20px;
     margin-bottom: 10px;
+    
 
 }
 
 .lItems {
     border: none;
-    overflow: hidden;
+    
     display: flex;
     align-items: center;
     gap: 3px;
@@ -39,7 +39,6 @@
 
 
 .left-container {
-
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -50,7 +49,6 @@
 
 .social-wrapper {
     width: 60%;
-
     display: flex;
     gap: 5px;
 }
