@@ -78,9 +78,11 @@
 }
 
 .blItems {
-    color: blue;
     display: flex;
     align-items: center;
     gap: 1px;
     cursor: pointer;
+}
+.blLink{
+    color: rgb(0, 123, 255);
 }

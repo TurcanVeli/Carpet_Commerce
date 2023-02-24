@@ -10,11 +10,13 @@
     border-bottom: 1px solid #555;
     width: 400px;
     max-width: 400px;
+    height: 30px;
 }
 
 .search-icon{
     
     position: absolute;
     right: 0;
+    bottom: 0;
     cursor: pointer;
 }

@@ -53,12 +53,12 @@ const ProductList = ({ type }) => {
     },
     {
         id: 5,
-        title: "Veli Carpet",
+        title: "İpek vansessta Halı",
         img: "https://ehalicim-1.myideasoft.com/themes/selftpl_63be7a809ffce/assets/images/anasayfa/modern.jpg",
         oldPrice: 1800,
         price: 1500,
         isNew: true,
-        isDiscount: false,
+        isDiscount: true,
         isFreeCargo: true
 
     },
@@ -92,8 +92,8 @@ const ProductList = ({ type }) => {
                         </div>
 
                         <div className="prices">
-                            <span>{item.price}$</span>
-                            {item.isDiscount && <span>{item.oldPrice}$</span>}
+                            <span>{item.price}₺</span>
+                            {item.isDiscount && <span>{item.oldPrice}₺</span>}
 
                         </div>
                         <div className="p-new"><span>Yeni Ürün</span></div>

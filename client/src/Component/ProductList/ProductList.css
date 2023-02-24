@@ -85,18 +85,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: brown;
+    background-color: rgb(50, 47, 44);
     border-radius: 20px 0px 0px 0px;
     padding: 0px 20px;
 }
 
 .prices>span:nth-child(1) {
     color: yellow;
+    font-weight: bold;
 }
 
 .prices>span:nth-child(2) {
     color: white;
     text-decoration: line-through;
+    font-weight: bold;
 }
 
 

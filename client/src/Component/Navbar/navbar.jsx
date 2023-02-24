@@ -42,7 +42,7 @@ const Navbar = () => {
           </div>
           <div className="lItems">
             <DiamondSharpIcon />
-            <Link className= "link" to='/' >Koleksiyonlar</Link>
+            <Link className= "link" to='/collections' >Koleksiyonlar</Link>
           </div>
           <div className="lItems">
             <ShieldRoundedIcon />
@@ -50,7 +50,7 @@ const Navbar = () => {
           </div>
           <div className="lItems">
             <PhoneInTalkRoundedIcon />
-            <Link className= "link" to='/' >İletişim</Link>
+            <Link className= "link" to='/contact' >İletişim</Link>
           </div>
         </div>
         <Searchbutton />
