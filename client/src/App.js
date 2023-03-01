@@ -11,7 +11,6 @@ import About from './Pages/About/about'
 import Product from './Pages/Product/product'
 import SalePoint from './Pages/Salepoint/salePoint'
 import Contact from './Pages/Contact/contact'
-import Newproduct from './Pages/NewProduct/newProduct'
 import SpecialProduct from './Pages/Specialproduct/specialproduct'
 
 //Components
@@ -80,11 +79,6 @@ const router = createBrowserRouter([
 
       },
       
-      {
-        path: "/newproducts/",
-        element: <Newproduct />,
-
-      },
       {
         path: "/specialproducts/",
         element: <SpecialProduct />,

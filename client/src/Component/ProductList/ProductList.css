@@ -1,17 +1,24 @@
 .n-product {
-    width: 90%;
+    width: 93vw;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+
     border: none;
     margin-bottom: 10px;
     padding-bottom: 50px;
+    gap: 5%;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
 .product-container {
+ 
     display: flex;
     position: relative;
+    height: 25vw;
+    width: 20%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -21,7 +28,6 @@
     border: 1px solid lightgrey;
     overflow: hidden;
     transition: all .5s cubic-bezier(.8,.5,.2,1.4);
-    box-sizing: border-box;
     opacity: 1;
 }    
 
@@ -44,6 +50,12 @@
 
 }
 
+.img_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
 .Buttons>button{
     cursor: pointer;
     min-height: 20px;
@@ -56,19 +68,24 @@
     color: white;
 
 }
+
+.link{
+    text-decoration: none;
+    color: white;
+    
+}
 .Buttons>button:nth-child(2):hover{
     background-color: red;
     opacity: 1;
 }
 
-.product-container:hover{
-    scale: 1.2;
-}
 
-.product-container>img {
-    height: 350px;
-    width: 200px;
+
+.img_wrapper>img {
+   height: 100%;
+   width: 100%;
     object-fit: cover;
+    box-sizing: border-box;
     transition: all .5s cubic-bezier(.8,.5,.2,1.4);
 
 }
@@ -143,3 +160,4 @@
     color: white;
     padding: 15px 15px;
 }
+

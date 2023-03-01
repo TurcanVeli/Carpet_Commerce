@@ -46,6 +46,7 @@ const CollectionList = () => {
                 <p>Koleksiyon özeti: Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                 <p>Detay için tıklayınız..</p>
               </div>
+              
               <img src={item.img} alt="" />
             <span className='c-title'>{item.title}</span>
           </div>

@@ -31,7 +31,7 @@ const Slider = () => {
         </div>
         
         <div className="slider">
-          <div className="container" style={{ width: `${data.length * 80}vw`, transform: `translateX(-${currentSlide * 80}vw)` }}>
+          <div className="container" style={{ width: `${data.length * 93}vw`, transform: `translateX(-${currentSlide * 93}vw)` }}>
             <img src={data[0]} alt="" />
             <img src={data[1]} alt="" />
             <img src={data[2]} alt="" />

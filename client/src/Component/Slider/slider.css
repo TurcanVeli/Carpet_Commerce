@@ -15,7 +15,7 @@
 
 .slider {
     height: 550px;
-    width: 80vw;
+    width: 93vw;
     overflow: hidden;
 }
 
@@ -26,9 +26,10 @@
 }
 
 .container>img {
-    width: 80vw;
+    width: 93vw;
     height: 100%;
     object-fit: cover;
+    
 }
 
 .icon-west {

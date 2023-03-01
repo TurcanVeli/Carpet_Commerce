@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from "react-router-dom";
 //yeni ürünlerin rastgele veya ilk 4ü gösterilecek
 
 import './ProductList.css'
@@ -8,7 +8,7 @@ import './ProductList.css'
 const ProductList = ({ type }) => {
     //TODO Apiden sadece 4 tane yeni ürün çekilecek.. Filtreleme işlemi sorgu sırasına olacak
     const data = [{
-        id: 1,
+        id: 0,
         title: "Artemis Vanessta Halı Krem Bel",
         img: "https://st.myideasoft.com/idea/ec/65/myassets/products/541/11298mavi_min.jpg?revision=1636027235",
         oldPrice: 1800,
@@ -19,7 +19,7 @@ const ProductList = ({ type }) => {
 
     },
     {
-        id: 2,
+        id: 1,
         title: "Artemis Vanessta Halı Krem Bej",
         img: "https://st.myideasoft.com/idea/ec/65/myassets/products/541/11298mavi_min.jpg?revision=1636027235",
         oldPrice: 1800,
@@ -30,7 +30,7 @@ const ProductList = ({ type }) => {
 
     },
     {
-        id: 3,
+        id: 2,
         title: "Artemis Vanessta Halı Krem Bej",
         img: "https://st.myideasoft.com/idea/ec/65/myassets/products/541/11298mavi_min.jpg?revision=1636027235",
         oldPrice: 1800,
@@ -41,7 +41,7 @@ const ProductList = ({ type }) => {
 
     },
     {
-        id: 4,
+        id: 3,
         title: "Artemis Vanessta Halı Krem Bej",
         img: "https://st.myideasoft.com/idea/ec/65/myassets/products/541/11298mavi_min.jpg?revision=1636027235",
         oldPrice: 1800,
@@ -52,7 +52,7 @@ const ProductList = ({ type }) => {
 
     },
     {
-        id: 5,
+        id: 4,
         title: "İpek vansessta Halı",
         img: "https://ehalicim-1.myideasoft.com/themes/selftpl_63be7a809ffce/assets/images/anasayfa/modern.jpg",
         oldPrice: 1800,
@@ -79,12 +79,14 @@ const ProductList = ({ type }) => {
                 newproducts.splice(0, 4).map(item => (
                     <div className="product-container" key={item.id
                     }>
+                        <div className="img_wrapper">
 
-                        <img src={item.img} alt="" />
+                            <img src={item.img} alt="" />
+                        </div>
                         <span>{item.title}</span>
                         <div className="Buttons">
                             <button className='Detay-button'>
-                                Detay
+                                <Link className='link' to={`/product/${item.id}`} >Detay</Link>
                             </button>
                             <button className='shop-button'>
                                 Sepete Ekle

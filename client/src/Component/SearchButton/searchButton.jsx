@@ -10,7 +10,7 @@ const Searchbutton = () => {
     <div className="form-field">
         <input
    type="text"
-   placeholder="Evin için ne arıyorsun"
+   placeholder="Evin için ne arıyorsun?"
      />
     <SearchIcon className='search-icon'/>
     </div>

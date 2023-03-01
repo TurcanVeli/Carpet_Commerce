@@ -62,23 +62,23 @@ const Navbar = () => {
           <InstagramIcon className='I'/>
           <WhatsAppIcon className='W'/>
           <PhoneInTalkRoundedIcon className='P'/>
-          <EmailIcon />
+          <EmailIcon className='E' />
         </div>
         <div className="bottom-links">
           <div className="blItems">
             <PersonSharpIcon />
-            <div className="blLink">Profil</div>
+            <Link to='/' className="Link">Profil</Link>
           </div>
-          <div className="blItems">
+          <div to='/' className="blItems">
             <ShoppingCartOutlinedIcon />
-            <div className="blLink">Sepetim</div>
+            <Link to='/' className="Link">Sepetim</Link>
           </div>
           <div className="blItems">
             <ThumbUpAltSharpIcon />
-            <div className="blLink">Favoriler</div>
+            <Link to='/' className="Link">Favoriler</Link>
           </div>
           <div className="blItems">
-            <div className="blLink">TR</div>
+            <Link to='/' className="Link">TR</Link>
             <KeyboardArrowDownSharpIcon />
           </div>
         </div>
