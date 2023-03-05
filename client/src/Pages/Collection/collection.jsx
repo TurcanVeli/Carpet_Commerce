@@ -1,6 +1,7 @@
 import React from 'react'
 
 import './collection.css'
+import GoToTop from '../../Component/Gototop/goTotop'
  
 //Halı hammadesi
 /*
@@ -54,6 +55,7 @@ const Collection = () => {
           ))
         }
       </div>
+      <GoToTop/>
     </div>
   )
 }
