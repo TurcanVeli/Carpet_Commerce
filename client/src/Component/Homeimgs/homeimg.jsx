@@ -32,8 +32,13 @@ const Homeimg = () => {
             <img src={adsimg[0].img} alt="" />
         </div>
         <div className="left">
-            <img src={adsimg[1].img} alt="" />
-            <img src={adsimg[2].img} alt="" />
+            <div className="img_1">
+                <img src={adsimg[1].img} alt="" />
+            </div>
+            <div className="img_2">
+                <img src={adsimg[2].img} alt="" />
+
+            </div>
         </div>
       
     </div>

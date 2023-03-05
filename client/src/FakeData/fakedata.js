@@ -32,7 +32,7 @@ const fakeCarpetData = [
      {
         id:1,
         title:"Artemis bilmemne halı",
-        collection: "Artemis",
+        collection: "Artemis Halı Koleksiyonu",
         category: "Silk",
         ipektype: "Viskon",
         havHeight: "5 mm",
@@ -48,7 +48,7 @@ const fakeCarpetData = [
     {
         id:2,
         title:"İpek bilmemne halı",
-        collection: "İpek",
+        collection: "İpek Halı Koleksiyonu",
         category: "Silk",
         ipektype: "Viskon",
         havHeight: "5 mm",
@@ -64,7 +64,7 @@ const fakeCarpetData = [
     {
         id:3,
         title:"İpek bilmemne halı",
-        collection: "İpek",
+        collection: "İpek Halı Koleksiyonu",
         category: "Silk",
         ipektype: "Viskon",
         havHeight: "5 mm",

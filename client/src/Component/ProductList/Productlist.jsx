@@ -86,7 +86,7 @@ const ProductList = ({ type }) => {
                         <span>{item.title}</span>
                         <div className="Buttons">
                             <button className='Detay-button'>
-                                <Link className='link' to={`/product/${item.id}`} >Detay</Link>
+                                <Link className='link-detay' to={`/product/${item.id}`} >Detay</Link>
                             </button>
                             <button className='shop-button'>
                                 Sepete Ekle

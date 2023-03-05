@@ -1,0 +1,31 @@
+.p_desc{
+   width: 93vw;
+   display: flex;
+   flex-direction: column;
+
+}
+
+.info_title{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+}
+.title{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.info_title .title:nth-child(1){
+    color: white;
+    background-color:rgb(50, 47, 44);
+}
+.info_title .title:nth-child(2){
+    color: white;
+    background-color:rgb(0, 145, 255);
+}
+.info_title .title:nth-child(3){
+    color: black;
+    background-color:rgb(204, 255, 0);
+}

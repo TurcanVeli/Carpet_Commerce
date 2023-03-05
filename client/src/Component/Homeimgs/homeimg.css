@@ -1,14 +1,19 @@
 .homeimg{
-    width: 93vw;
-    height: 500px;
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
+    width: 93vw;
+    height: 30vw;
+    gap: 30px;
+    background-color: red;
+    margin: 0;
 
 }
 
 .right{
-    flex: 3;
+    flex: 2;
+    background-color: aquamarine;
+    display: flex;
+    height: 100%;
+    border: none;
 
 }
 .right>img{
@@ -18,15 +23,36 @@
 }
 
 .left{
-    flex: 2;
     display: flex;
+    background-color: bisque;
+    flex: 1;
+    height: 100%;
     flex-direction: column;
-    gap: 15px;
-    overflow: hidden;
-    
+    border: none;
+    gap: 20px;
+
 }
-.left>img{
-    height: 50%;
+
+.img_1{
+    display: flex;
+    height: 15vw;
+    width: 100%;
+  
+}
+.img_1>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.img_2{
+    display: flex;
+    height: 15vw;
+    width: 100%;
+}
+
+.img_2>img{
+    height: 100%;
     width: 100%;
     object-fit: cover;
 }

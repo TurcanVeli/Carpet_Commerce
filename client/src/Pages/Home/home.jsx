@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import ProductList from '../../Component/ProductList/Productlist';
 import Homeimg from '../../Component/Homeimgs/homeimg';
 
+import GoToTop from '../../Component/Gototop/goTotop';
 
 const Home = () => {
   return (
@@ -34,6 +35,7 @@ const Home = () => {
         <Link className="link" to="/specialproducts" style={{ fontSize: `${10}px` }}>Tümünü gör</Link>
       </div>
       <ProductList type="special" />
+      <GoToTop />
     </div>
   )
 }
