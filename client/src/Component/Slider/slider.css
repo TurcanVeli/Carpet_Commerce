@@ -15,19 +15,21 @@
 
 .slider {
     height: 550px;
-    width: 93vw;
+    width: 85vw;
     overflow: hidden;
+
 }
 
-.container {
-    height: 100%;
+.slider-container {
+    height:  550px;
     display: flex;
     transition: all 1s ease-in-out;
+    object-fit: cover;
 }
 
-.container>img {
-    width: 93vw;
-    height: 100%;
+.slider-container>img {
+    width: 85vw;
+    height:  550px;
     object-fit: cover;
     
 }

@@ -17,7 +17,7 @@ const Home = () => {
     <div className="home">
       <Slider />
       <div className="subTitle">
-        <h3>Koleksiyonlarımız</h3>
+        <h3>Markalarımız</h3>
         <hr />
         <Link className="link" to="/collections" style={{ fontSize: `${10}px` }}>Tümünü gör</Link>
       </div>

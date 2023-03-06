@@ -1,5 +1,5 @@
-.c-list{
-    width: 95vw;
+.c-list {
+    width: 102%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,10 +7,10 @@
     margin-bottom: 10px;
 
 
-   
+
 }
 
-.c-card{
+.c-card {
     margin-left: 15px;
     height: 200px;
     width: 370px;
@@ -22,27 +22,28 @@
     border-radius: 15px;
     overflow: hidden;
     cursor: pointer;
-    box-shadow: 0px 4px 7px rgba(0,0,0,.5);
-    transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, .5);
+    transition: all .5s cubic-bezier(.8, .5, .2, 1.4);
     position: relative;
 }
 
 
 
-.c-card:hover{
-    transition: all .5s cubic-bezier(.8,.5,.2,1.4);
-    box-shadow: 0px 6px 8px rgba(0,0,0,.7);
+.c-card:hover {
+    transition: all .5s cubic-bezier(.8, .5, .2, 1.4);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, .7);
     transform: scale(.97);
+    overflow: hidden;
 }
 
-.desc{
+.desc {
     position: absolute;
     z-index: 2;
-    top:0px;
-    left:0px;
-    background-color: rgba(255,255,255,.7);
-    width:100%;
-    height:100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, .7);
+    width: 100%;
+    height: 100%;
     transition: all .7s ease-in-out;
     padding: 20px;
     box-sizing: border-box;
@@ -50,33 +51,40 @@
     gap: 3px;
 }
 
-.desc>p{
+.desc>p {
     line-height: 24px;
     height: 70%;
 }
-.c-card:hover .desc{
-    left:0px;
+
+.c-card:hover .desc {
+    left: 0px;
     transition: all .7s ease-in-out;
     clip-path: circle(75%);
 }
-.c-card:hover img{
-    transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+
+.c-card:hover img {
+    transition: all .5s cubic-bezier(.8, .5, .2, 1.4);
     transform: scale(1.6) rotate(20deg);
     filter: blur(3px);
 }
 
-
-.c-card>img{
-    height: 100%;
-    width: 100%;
+.col-img-wrapper{
+    height: 200px;
+    width: 370px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.col-img-wrapper>img {
+    height: 200px;
+    width: 370px;
     border-radius: 15px;
     object-fit: cover;
     box-sizing: border-box;
-    transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+    transition: all .5s cubic-bezier(.8, .5, .2, 1.4);
 
 }
 
-.c-title{
+.c-title {
     position: absolute;
     padding: 5px 10px;
     font-size: 15px;
@@ -87,5 +95,3 @@
     background-color: rgb(50, 47, 44);
     z-index: 2;
 }
-
-

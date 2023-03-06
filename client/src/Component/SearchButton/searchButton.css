@@ -1,20 +1,23 @@
 
 
-.form-field{
+.form_field{
     height: fit-content;
     width: fit-content;
     position: relative;
 }
-.form-field>input{
+
+
+.yakup{
     border: none;
     border-bottom: 1px solid #555;
     width: 400px;
     max-width: 400px;
     height: 30px;
+    cursor: pointer;
 }
 
 .search-icon{
-    
+   
     position: absolute;
     right: 0;
     bottom: 0;

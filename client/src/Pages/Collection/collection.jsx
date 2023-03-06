@@ -1,16 +1,22 @@
 import React from 'react'
-
+import { useNavigate } from "react-router-dom";
 import './collection.css'
 import GoToTop from '../../Component/Gototop/goTotop'
- 
-//Halı hammadesi
-/*
- yün
-  ipek
-  akrilik
-  */
-const Collection = () => {
+import { useEffect } from 'react';
+import { useState } from 'react';
 
+const Collection = () => {
+  let navigate = useNavigate();
+  const [clicked, setClicked] = useState(false)
+  const handle = () => {
+    setClicked(!clicked)
+
+  }
+  useEffect(() => {
+    if (clicked) {
+      navigate("/collection/1");
+    }
+  }, [clicked]);
   const colData = [
     {
       id: 1,
@@ -42,20 +48,20 @@ const Collection = () => {
   return (
     <div className='collection'>
       <div className="title-container">
-        <hr />
-      <h1>Koleksiyonlar</h1>
-      <hr />
+
+        <h1>Markalar</h1>
+
       </div>
       <div className="collection-list">
         {
           colData.map((item) => (
-            <div className="img-wrapper" id={item.id}>
+            <div onClick={() => handle()} className="img-wrapper" id={item.id}>
               <img src={item.img} alt="" />
             </div>
           ))
         }
       </div>
-      <GoToTop/>
+      <GoToTop />
     </div>
   )
 }

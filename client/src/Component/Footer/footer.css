@@ -9,19 +9,19 @@
 
 }
 
-.column{
+.column-footer{
     display: flex;
     flex-direction: column;
     gap: 10px;
     box-sizing: border-box;
 }
-.title{
+.title-footer{
     color: yellow;
     font-size: 15px;
     font-weight: bold;
 }
 
-.column>h3{
+.column-footer>h3{
     color: white;
     font-size: 10px;
 }

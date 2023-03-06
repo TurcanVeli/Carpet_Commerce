@@ -28,14 +28,14 @@ const Homeimg = () => {
   return (
 
     <div className='homeimg'>
-        <div className="right">
+        <div className="right-homeimg">
             <img src={adsimg[0].img} alt="" />
         </div>
-        <div className="left">
-            <div className="img_1">
+        <div className="left-homeimg">
+            <div className="img_1_homeimg">
                 <img src={adsimg[1].img} alt="" />
             </div>
-            <div className="img_2">
+            <div className="img_2_homeimg">
                 <img src={adsimg[2].img} alt="" />
 
             </div>

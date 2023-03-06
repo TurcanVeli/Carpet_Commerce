@@ -1,0 +1,32 @@
+.products{
+    display: flex;
+    width: 85vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+
+}
+
+.page_links{
+   width: 100%;
+   color: #777;
+    font-size: 15px;
+}
+
+
+.path_links{
+    display: flex;
+    cursor: pointer;
+}
+
+
+.artemis{
+    color:  rgb(70, 151, 236);
+}
+.previous_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

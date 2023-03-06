@@ -1,5 +1,5 @@
 .home {
-   width: 93vw;
+   width: 85vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,7 +12,7 @@
 
 
 .subTitle {
-    width: 93vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

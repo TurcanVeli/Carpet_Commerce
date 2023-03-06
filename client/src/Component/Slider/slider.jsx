@@ -8,9 +8,9 @@ const Slider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const data = [
-    "https://images.pexels.com/photos/1549200/pexels-photo-1549200.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/949670/pexels-photo-949670.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    "https://images.pexels.com/photos/837140/pexels-photo-837140.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "https://st3.myideasoft.com/idea/gj/35/themes/selftpl_5f1ab42205476/assets/uploads/slider_7.jpg?revision=7.2.5.0-10-1672303272",
+    "https://st3.myideasoft.com/idea/gj/35/themes/selftpl_5f1ab42205476/assets/uploads/slider_4.jpg?revision=7.2.5.0-10-1672303272",
+    "https://st3.myideasoft.com/idea/gj/35/themes/selftpl_5f1ab42205476/assets/uploads/slider_5.jpg?revision=7.2.5.0-10-1672303272",
   ];
 
   const prevSlide = () => {
@@ -31,7 +31,7 @@ const Slider = () => {
         </div>
         
         <div className="slider">
-          <div className="container" style={{ width: `${data.length * 93}vw`, transform: `translateX(-${currentSlide * 93}vw)` }}>
+          <div className="slider-container" style={{ width: `${data.length * 85}vw`, transform: `translateX(-${currentSlide * 85}vw)` }}>
             <img src={data[0]} alt="" />
             <img src={data[1]} alt="" />
             <img src={data[2]} alt="" />

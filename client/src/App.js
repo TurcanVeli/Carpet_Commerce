@@ -12,6 +12,8 @@ import Product from './Pages/Product/product'
 import SalePoint from './Pages/Salepoint/salePoint'
 import Contact from './Pages/Contact/contact'
 import SpecialProduct from './Pages/Specialproduct/specialproduct'
+import Brand from './Pages/Brand/brand'
+import Products from './Pages/Products/products'
 
 //Components
 import Navbar from './Component/Navbar/navbar'
@@ -84,6 +86,15 @@ const router = createBrowserRouter([
         element: <SpecialProduct />,
 
       },
+      {
+        path: "/collection/:id",
+        element: <Brand/>
+      },
+      {
+        path: "/products/:collectionid",
+        element: <Products/>
+
+      }
     ]
   },
 

@@ -22,12 +22,11 @@ import EmailIcon from '@mui/icons-material/Email';
 
 
 
-
 const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="logo-container">
-        <img src="/img/logo.PNG" alt="" className="logo" />
+        <img src="/img/logo2.png" alt="" className="logo" />
       </div>
       <div className="links-container">
         <div className="l-wrapper">

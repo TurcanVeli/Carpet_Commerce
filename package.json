@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "react-image-magnify": "^2.7.4",
+    "react-img-zoom": "^0.1.0"
+  }
+}
