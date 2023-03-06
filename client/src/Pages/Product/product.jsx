@@ -7,7 +7,7 @@ import './product.css'
 import { Link } from "react-router-dom";
 import ProductDesc from '../../Component/ProductDescription/productDesc';
 import ProductList from '../../Component/ProductList/Productlist';
-import Zoom from 'react-img-zoom'
+
 import GoToTop from '../../Component/Gototop/goTotop';
 import ReactImageMagnify from 'react-image-magnify';
 const Product = () => {
@@ -15,7 +15,7 @@ const Product = () => {
   const data = [{
     id: 0,
     title: "Artemis Vanessta Halı Krem Bel",
-    img: "https://st.myideasoft.com/idea/ec/65/myassets/products/541/11298mavi_min.jpg?revision=1636027235",
+    img: "https://st.myideasoft.com/idea/gj/35/myassets/products/532/bella-6470a.jpg?revision=1621406821",
     img2: "https://st2.myideasoft.com/idea/gj/35/myassets/products/537/bella-z490d.jpg?revision=1620397026",
     oldPrice: 2800,
     price: 1600,
@@ -87,7 +87,7 @@ const Product = () => {
 {
     id: 6,
     title: "Artemis Murano 09164C Bej Lacivert Halı",
-    img: "https://st1.myideasoft.com/idea/gj/35/myassets/products/717/3-dior-09147a-yeni_min.jpg?revision=1652879496",
+    img: "https://st.myideasoft.com/idea/gj/35/myassets/products/532/bella-6470a.jpg?revision=1621406821",
     img2: "https://st1.myideasoft.com/idea/gj/35/myassets/products/555/vanessa-z591b-1.jpg?revision=1620397564",
     oldPrice: 1800,
     price: 2540,
@@ -99,7 +99,7 @@ const Product = () => {
 {
     id: 7,
     title: "Artemis Vanessta Halı Krem Bej",
-    img: "https://st3.myideasoft.com/idea/gj/35/myassets/products/670/3-mina-09099d_min.jpg?revision=1652861615",
+    img: "https://st.myideasoft.com/idea/gj/35/myassets/products/532/bella-6470a.jpg?revision=1621406821",
     img2: "https://st1.myideasoft.com/idea/gj/35/myassets/products/555/vanessa-z591b-1.jpg?revision=1620397564",
     oldPrice: 1800,
     price: 1500,
