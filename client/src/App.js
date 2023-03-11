@@ -14,10 +14,14 @@ import Contact from './Pages/Contact/contact'
 import SpecialProduct from './Pages/Specialproduct/specialproduct'
 import Brand from './Pages/Brand/brand'
 import Products from './Pages/Products/products'
+import Basket from './Pages/Basket/basket'
 
 //Components
 import Navbar from './Component/Navbar/navbar'
 import Footer from './Component/Footer/footer'
+
+
+
 
 
 import './App.css'
@@ -80,6 +84,7 @@ const router = createBrowserRouter([
         element: <Contact />,
 
       },
+ 
       
       {
         path: "/specialproducts/",
@@ -94,7 +99,12 @@ const router = createBrowserRouter([
         path: "/products/:collectionid",
         element: <Products/>
 
-      }
+      },
+      {
+        path: "/sepetim/",
+        element: <Basket/>
+      },
+     
     ]
   },
 

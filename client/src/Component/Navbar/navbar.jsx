@@ -70,7 +70,7 @@ const Navbar = () => {
           </div>
           <div to='/' className="blItems">
             <ShoppingCartOutlinedIcon />
-            <Link to='/' className="Link">Sepetim</Link>
+            <Link to='/sepetim' className="Link">Sepetim</Link>
           </div>
           <div className="blItems">
             <ThumbUpAltSharpIcon />

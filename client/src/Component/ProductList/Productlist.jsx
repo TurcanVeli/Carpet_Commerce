@@ -122,7 +122,7 @@ const ProductList = ({ type }) => {
 
     return (
         <div className='n-product' style={{ flexWrap: wrap, gap: gap }}>
-            {
+                {
                 newproducts.splice(0, type === 'all' ? newproducts.length : 4).map(item => (
                     <div className="product-container" key={item.id
                     }>
