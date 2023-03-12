@@ -5,7 +5,18 @@ import './basket.css'
 
 const Basket = () => {
     const basket_fake_info = [
-      
+        {
+            id: 0,
+            title: "Artemis Vanessta Halı Krem Bel",
+            img: "https://st.myideasoft.com/idea/ec/65/myassets/products/541/11298mavi_min.jpg?revision=1636027235",
+            price: 1600,
+        },
+        {
+            id: 0,
+            title: "Artemis Vanessta Halı Krem Bel",
+            img: "https://st.myideasoft.com/idea/ec/65/myassets/products/541/11298mavi_min.jpg?revision=1636027235",
+            price: 1600,
+        }
     ]
 
 
@@ -42,15 +53,25 @@ const Basket = () => {
                                                     <img src={item.img} alt="" />
                                                 </div>
                                                 <div className="title_and_button_container">
-                                                    <div className="basket_product_info_title">
+                                                 
                                                         <h3>{item.title}</h3>
-                                                    </div>
+
                                                     <div className="basket_delete_container">
-                                                        
                                                         <DeleteIcon/>
                                                         <h4>Sepeti Sil</h4>
                                                         
                                                     </div>
+                                                    
+                                                </div>
+                                                <div className="basket_count_product">
+                                                        <div className="basket_count_container">
+                                                            <div className="basket_plus">-</div>
+                                                            <div className="basket_count">1</div>
+                                                            <div className="basket_minus">+</div>
+                                                        </div>
+                                                </div>
+                                                <div className="basket_left_price">
+                                                    
                                                 </div>
                                             </div>
                                         ))
