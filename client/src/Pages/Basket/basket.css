@@ -1,18 +1,27 @@
+:root {
+    --borderColor :#dddadabd;
+}
 .basket{
-    width: 85vw;
+    width: 80vw;
+    height: 34vw;
     display: flex;
     justify-content: center;
     
 }
 .basket_container{
     margin: 30px;
-    border: 1px solid #777;
+    border: 1px solid var(--borderColor);
     height: 15vw;
     width: 55vw;
     display: flex;
     justify-content: center;
     align-items: center;
 
+}
+
+.go_back_shopping_container{
+    background-color: red;
+    z-index: 2;
 }
 
 .no_product_wrapper{
@@ -29,7 +38,7 @@
 
 .basket_product{
     width: 100%;
-    height: 30vw;
+    height: 100%;
     gap: 20px;
     display: flex;
 
@@ -46,33 +55,101 @@
 
 .basket_product_container{
     flex: 1;
-    border: 1px solid #777;
+    border: 1px solid var(--borderColor);
     display: flex;
     flex-direction: column;
-    height: 30vw;
+    
 }
 .gift_code_container{
     flex: 1;
-    border: 1px solid #777;
+    border: 1px solid var(--borderColor);
 
 }
 
 .basket_right{
-    flex: 1;
+    flex: 0.7;
 
 }
 
 
 .basket_abstract{
-    border: 1px solid #777;
+    border: 1px solid var(--borderColor);
     display: flex;
-    height: 50%;
+
+    flex-direction: column  ;
 }
+.abstract-title{
+    border-bottom: 1px solid var(--borderColor);
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 500;
+}
+.basket_money_info{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--borderColor);
+    margin: 10px;
+}
+
+.ara_toplam,
+.kdv_toplami,
+.kdv_dahil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ara_toplam>p,
+.kdv_toplami>p,
+.kdv_dahil>p,
+.result-info-container>p{
+    color: #444;
+    font-size: 15px;
+}
+
+.ara_toplam>h3,
+.kdv_toplami>h3,
+.kdv_dahil>h3,
+.result-info-container>h3{
+    font-size: 15px;
+    color: #222;
+}
+
+.basket_total_result{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+.result-info-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.done_shooping{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    transition: 0.5s ease ;
+}
+
+.done_shooping:hover{
+    background-color: yellow;
+    color: black;
+    border-color: yellow;
+    cursor: pointer;
+}
+
 
 .basket_product_title{
     margin-left: 10px;
     margin-right: 10px;
-    border-bottom: 1px solid #777;
+    border-bottom: 1px solid var(--borderColor);
     color: black;
     font-size: 20px;
     padding: 15px;
@@ -86,8 +163,11 @@
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
+    padding: 10px 10px;
 }
-
+.basket_product_info_container:hover{
+    background-color: #cfcdcd44;
+}
 
 .carpet_img_wrapper{
     height: 100px;
@@ -102,24 +182,32 @@
 }
 
 
-.title_and_button_container{
+.basket_title_and_button_container{
     flex: 1;
     height: 100%;   
     display: flex;
-    align-items: center;
     flex-direction: column;
+    gap: 20px;
+}
+.basket_product_title_wrapper{
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+    border: none;
     justify-content: center;
-    align-content: flex-end,;
+
+   
 }
 
-.title_and_button_container>h3{
+.basket_product_title_wrapper>h3{
+ 
     font-size: 15px;
     font-weight: 300;
 }
 
 .basket_delete_container{
     display: flex;
-    border: 1px solid #777;
+    border: 1px solid var(--borderColor);
     border-radius: 10px;
     justify-content: center;
     align-items: center ;
@@ -128,17 +216,23 @@
     font-size: 10px;
     scale: 0.7;
     color: #777;  
+    cursor: pointer;
 }
-
+.basket_delete_container:hover{
+    color: black;
+    border-color: black;
+}
 
 .basket_count_product{
     flex: 1;
+
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
 }
 .basket_count_container{
+    margin-top: 10px;
     display: flex;
     border: 1px solid #888;
     border-radius: 5px;
@@ -154,6 +248,7 @@
     border-right: 1px solid #888;
     color: black;
     font-weight: bold;
+    cursor: pointer;
 }
 .basket_count{
     display: flex;
@@ -171,11 +266,22 @@
     border-left: 1px solid #888;
     color: black;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .basket_left_price{
+    height: 100%;
     flex: 1;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.basket_price{
+    margin-top: 10px;
+    font-weight: 700;
+}
+.kdv{
+    font-size: 10px;
+    color: #999;
 }

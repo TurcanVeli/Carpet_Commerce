@@ -52,13 +52,14 @@ const Basket = () => {
                                                 <div className="carpet_img_wrapper">
                                                     <img src={item.img} alt="" />
                                                 </div>
-                                                <div className="title_and_button_container">
-                                                 
+                                                <div className="basket_title_and_button_container">
+                                                    <div className="basket_product_title_wrapper">
+
                                                         <h3>{item.title}</h3>
+                                                    </div>
 
                                                     <div className="basket_delete_container">
                                                         <DeleteIcon/>
-                                                        <h4>Sepeti Sil</h4>
                                                         
                                                     </div>
                                                     
@@ -71,7 +72,13 @@ const Basket = () => {
                                                         </div>
                                                 </div>
                                                 <div className="basket_left_price">
-                                                    
+                                                    <div className="basket_price">
+
+                                                        1.382,67 TL
+                                                    </div>
+                                                    <div className="kdv">
+                                                 + KDV % 8
+                                                    </div>
                                                 </div>
                                             </div>
                                         ))
@@ -81,12 +88,42 @@ const Basket = () => {
                                     </div>
 
                                 </div>
-                                <div className="gift_code_container">
-
-                                </div>
+                           
                             </div>
                             <div className="basket_right">
                                 <div className="basket_abstract">
+                                    <div className="abstract-title">
+                                        <h3>Sepet Özeti</h3>
+                                    </div>
+                                    <div className="basket_money_info">
+
+                                        <div className="ara_toplam">
+                                            <p>Ara Toplam</p>
+                                            <h3>10000tl</h3>
+                                        </div>
+                                        <div className='kdv_toplami'>
+                                        <p>KDV</p>
+                                        <h3>300tl</h3>
+                                            
+                                        </div>
+                                        <div className="kdv_dahil">
+                                        <p>KDV Dahil</p>
+                                            <h3>103000tl</h3>
+                                            
+                                        </div>
+                                    </div>
+                                    <div className="basket_total_result">
+                                        <div className="result-info-container">
+
+                                            <p>Toplam</p>
+                                            <h3>13000tl</h3>
+                                        </div>
+                                            
+                                        <div className="done_shooping">
+                                            alışverişi tamamla
+                                        </div>
+                                    </div>
+
 
                                 </div>
                             </div>
