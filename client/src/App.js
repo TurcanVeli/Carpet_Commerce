@@ -15,6 +15,7 @@ import SpecialProduct from './Pages/Specialproduct/specialproduct'
 import Brand from './Pages/Brand/brand'
 import Products from './Pages/Products/products'
 import Basket from './Pages/Basket/basket'
+import Login from './Pages/Login/login'
 
 //Components
 import Navbar from './Component/Navbar/navbar'
@@ -104,6 +105,10 @@ const router = createBrowserRouter([
         path: "/sepetim/",
         element: <Basket/>
       },
+      {
+        path: "/login",
+        element: <Login/>
+      }
      
     ]
   },

@@ -10,12 +10,14 @@ const Basket = () => {
             title: "Artemis Vanessta Halı Krem Bel",
             img: "https://st.myideasoft.com/idea/ec/65/myassets/products/541/11298mavi_min.jpg?revision=1636027235",
             price: 1600,
+            count: 1,
         },
         {
             id: 0,
             title: "Artemis Vanessta Halı Krem Bel",
             img: "https://st.myideasoft.com/idea/ec/65/myassets/products/541/11298mavi_min.jpg?revision=1636027235",
             price: 1600,
+            count: 1,
         }
     ]
 
@@ -67,25 +69,22 @@ const Basket = () => {
                                                 <div className="basket_count_product">
                                                         <div className="basket_count_container">
                                                             <div className="basket_plus">-</div>
-                                                            <div className="basket_count">1</div>
+                                                            <div className="basket_count">{item.count}</div>
                                                             <div className="basket_minus">+</div>
                                                         </div>
                                                 </div>
                                                 <div className="basket_left_price">
                                                     <div className="basket_price">
-
                                                         1.382,67 TL
                                                     </div>
                                                     <div className="kdv">
-                                                 + KDV % 8
+                                                        + KDV % 8
                                                     </div>
                                                 </div>
                                             </div>
                                         ))
                                     }
-                                    <div className="go_back_shopping_container">
-
-                                    </div>
+                           
 
                                 </div>
                            

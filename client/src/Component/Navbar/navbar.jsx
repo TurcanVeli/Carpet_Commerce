@@ -66,7 +66,7 @@ const Navbar = () => {
         <div className="bottom-links">
           <div className="blItems">
             <PersonSharpIcon />
-            <Link to='/' className="Link">Profil</Link>
+            <Link to='/login' className="Link">Profil</Link>
           </div>
           <div to='/' className="blItems">
             <ShoppingCartOutlinedIcon />
